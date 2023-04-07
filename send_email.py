@@ -17,7 +17,7 @@ def send_email(receiver_email, subject, body):
         server.sendmail(SENDER_EMAIL, receiver_email, message)
 
 #===========================================
-receiver_email = ['azeezmojeed001@gmail.com','matimojuadedayo@gmail.com', 'ossai.chris@yahoo.com', 'usmanadammikail@gmail.com', 'hartthex@gmail.com']
+receiver_email = []
 subject = 'Python Masterclass - TEST'
 body = 'This is an email sent with Python.'
 
